@@ -1,0 +1,29 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  background-color: #325886;
+  margin: 1rem;
+  border: 1px solid rgba(236, 236, 236, 0.562);
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px rgb(15, 15, 15);
+}
+
+.menuList {
+  list-style: none;
+  padding: 2rem;
+  width: 400px;
+}
+
+.menuDish {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.menuDish:first-child {
+  padding-top: 0;
+}

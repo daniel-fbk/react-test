@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+h1,
+ul,
+div,
+span {
+  color: white;
+}
+
+.menu-title {
+  text-align: center;
+  color: #325886;
+  font-size: 3em;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  background: url(/background.png) no-repeat center center;
+}
+
+body {
+  background-color: #feeed4;
+  margin: 0;
+}
